@@ -1,13 +1,10 @@
 # Empezamos cargando la imágen base
 FROM node:lts-stretch-slim
-# Indicamos que la terminal debe ser no interactiva
-#ENV DEBIAN_FRONTEND=noninteractive
-# Actualizamos repos e instalamos software que necesitamos
-#RUN apt update && apt install -yq --no-install-recommends npm
-# Añado en el sistema el fichero de configuraciónes extra de php.ini
+# Añado todo el contenido del proyecto
 COPY ./ /var/www/cv
+# Cambio la carpeta de trabajo a la carpeta del proyecto dentro del Docker
 WORKDIR /var/www/cv
+# Ejecutamos npm install
 RUN npm install
-#RUN npm run stylus
-# Fuerzo que ejecute un comando que se quede leyendo información indefinidamente, si el comando parase, la imagen también
+# Fuerzo que ejecute un comando que deje la terminal activa para que no muera el Docker.
 CMD npm start
