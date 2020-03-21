@@ -6,7 +6,7 @@ const Experience = (props) => {
       {props.experience.map((exp) =>
         <div className='item' key={exp.jobTitle}>
           <h3>{exp.jobTitle} @ {exp.company} <span>{exp.startDate} - {exp.endDate}</span></h3>
-          <p>{exp.jobDescription}</p>
+          <p dangerouslySetInnerHTML={{__html: exp.jobDescription}}></p>
         </div>
       )}
     </div>

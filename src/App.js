@@ -11,8 +11,8 @@ class App extends Component {
     const person = {
       avatar: 'img/cristian.jpg',
       name: 'Cristian López Márquez',
-      profession: 'Team Lead Developer',
-      bio: 'Desarrollador Full-Stack combinado con características DevOps y experiencia de Team Lead.',
+      profession: 'Full Stack / Team Lead Developer',
+      bio: 'Persona curiosa y proactiva. Desarrollador Full-Stack combinado con características DevOps y experiencia de Team Lead.',
       address: 'Badalona, Barcelona',
       social: [
         {name: 'envelope', url: 'mailto:lopez.cristian.deljulia@gmail.com'},
@@ -21,8 +21,7 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/cristian-lópez-márquez-324743117/'}
       ],
       experience: [
-        {jobTitle: 'Team Lead Developer', company: 'Eurotransportcar (Kosaas)', startDate: 'Abr 2018', endDate: 'Abr 2020', jobDescription: 'Líder de equipos de desarrollo y developer en proyectos realizados con framework Symfony. SysAdmin de entorno de preproducción y producción de Kubernetes + Docker.'},
-        {jobTitle: 'Full Stack Developer', company: 'Eurotransportcar (Kosaas)', startDate: 'Feb 2018', endDate: 'Abr 2018', jobDescription: 'Inicio en la empresa como desarrollador Full Stack en framework Symfony.'},
+        {jobTitle: 'Full Stack Developer / Team Lead Developer', company: 'Eurotransportcar (Kosaas)', startDate: 'Feb 2018', endDate: 'Abr 2020', jobDescription: "<ul><li>Desarrollo Full Stack.</li><li>Framework Symfony en diferentes proyectos con versiones:<ul><li>2.3</li><li>2.8</li><li>3.4</li><li>4.4</li></ul></li><li>Uso de Docker con orquestador Kubernetes.</li><li>Uso de control de versiones GIT con metodología GitFlow.</li><li>Desarrollo basado en sprint con el uso de Jira Software.</li><li>Realización de reuniones de formación interna / gestión de nuevos desarrollos con clientes.</li><li>Subidas de código périodicas, mínimo una semanal.</li><li>Lead de grupos de desarrollo</li><li>SysAdmin de entorno de preproducción y producción de Linux + Docker + Kubernetes.</li></ul>"},
         {jobTitle: 'SysAdmin', company: 'Birchman Group Spain', startDate: 'Oct 2016', endDate: 'Feb 2018', jobDescription: 'Administración de sistemas en CPDs que hospedaban máquinas virtuales bajo VMWare. Administración Linux y Windows.'},
       ],
       education: [
