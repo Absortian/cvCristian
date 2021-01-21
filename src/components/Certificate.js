@@ -14,7 +14,7 @@ const Certificate = (props) => {
   return (
     <div className='title'>
       <i className='fa fa-trophy'></i>
-      <h2>Certificados</h2>
+      <h2>Certificate</h2>
       {myCertificates}
     </div>
   )
